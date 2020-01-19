@@ -1,0 +1,30 @@
+[
+    {
+        "text": "Сколько будет 2 + 2",
+        "answer": "4",
+        "type": "normal",
+        "resolved": false
+    },
+    {
+        "text": "Сколько будет 2 + 2",
+        "answer": "4",
+        "variants": ["1","2","3","4"],
+        "type": "var4",
+        "resolved": false
+    },
+    {
+        "text": "Сопоставьте числа",
+        "answer": ["1", "2", "3", "4"],
+        "matchedQuestions": ["1","2","3","4"],
+        "variants": ["2","1","3","4"],
+        "type": "matching",
+        "resolved": false
+    },
+    {
+        "text": "Раставьте числа по возрастанию",
+        "answer": ["1", "2", "3", "4"],
+        "variants": ["2","1","3","4"],
+        "type": "sorting",
+        "resolved": false
+    }
+]
