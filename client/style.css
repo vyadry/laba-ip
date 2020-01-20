@@ -1,8 +1,32 @@
+
+.footer button{
+  background-color: #7CB4B8;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+
+
+}
+.header {
+  margin-top: 5px;
+  background-color: #547AA5;
+  border-radius: 10px;
+  color: white;
+  /* margin-right: 40%; */
+
+
+}
+.footer button:hover{
+  background-color: #547AA5;
+
+
+}
 .container{
     display: grid;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
-    grid-template-rows: 60px 1fr;
+    grid-template-rows: 80px 1fr;
     height: 100%;
 }
 .layout{
@@ -11,29 +35,44 @@
 }
 .var4-variant{
     width: 500px;
-    background: lightgrey;
+    background: white;
     text-align: center;
-    border-bottom: 1px white solid;
+    border-bottom: 1px black solid;
+    border-radius: 7px;
+    margin-top: 10px;
     padding: 10px;
+
 }
 
 .var4-variant.selected{
-    background: lightgreen;
+    background: #7CB4B8;
 }
 
+
+.question {
+  background-color: #524948;
+  border-radius: 10px;
+  margin-top: 20px;
+}
 .center{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     align-items: center;
     justify-items: center
+
 }
-.header{
-    border-bottom: 1px black solid;
+
+.select{
+      border-radius: 7px;
+      margin-left: 20px;
 }
-.second-column{
-    border-left: 1px black solid;
+
+.input{
+  border-radius: 7px;
+  border: none;
 }
+
 body{
     height: 100vh;
     box-sizing: border-box;
@@ -44,7 +83,11 @@ body{
     text-align: center;
     cursor: pointer;
     user-select: none;
-    background: lightgrey;
+    background: #524948;
+    border-radius: 7px;
+    margin-top: 30px;
+    color: white;
+    margin-left: 30px;
 }
 
 .matching{
@@ -56,15 +99,19 @@ body{
     text-align: center;
     padding: 10px;
     width: 200px;
-    background: lightgrey;
-    border-bottom: 1px white solid;
+    background: white;
+    border-bottom: 1px black solid;
+    border-radius: 7px;
+    margin-top: 10px;
+    padding: 10px;
+    /* border-bottom: 1px white solid; */
 }
 .select-question.resolved{
-    background: lightgreen;
+    background: #7CB4B8;
 }
 
 .select-question.selected{
-    border: 1px red solid;
+    border: 3px #547AA5 solid;
 }
 .first-column{
     display: grid;
@@ -77,7 +124,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-top: 1px black solid;
+    /* border-top: 1px black solid; */
 }
 .button{
     height: 30px;
@@ -85,6 +132,8 @@ body{
 }
 #timer{
     font-size: 20px;
+    background-color: #7CB4B8;
+    border-radius: 10px;
 }
 #text{
     font-size: 20px;
